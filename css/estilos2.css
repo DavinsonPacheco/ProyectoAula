@@ -1,0 +1,37 @@
+.table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+	margin: auto;
+    font-size: 16px;
+}
+th, td{
+	padding: 8px;
+}
+thead{
+	background-color:#000;
+	color: white;
+}
+tr:nth-child(even){
+	background-color: #6dbefa;
+}
+tr:hover td{
+	background-color: #60b6f5;
+	color: #000;
+}
+.tdpdf{
+    padding: 15px 5px;
+}
+.bodypdf{
+    font-size: 1.2rem;
+    line-height: 1.6em;
+    margin: 0;
+    font-family: 'Open sans';
+}
+.banner{
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    user-select: none;
+}

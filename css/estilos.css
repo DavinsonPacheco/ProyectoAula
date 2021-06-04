@@ -1,0 +1,582 @@
+
+
+/*Fin del page loader*/
+
+.divform{
+    width: 20%;
+    height: auto;
+    padding-left: 500px;
+}
+.formtext{
+    font-size: 15px;
+    font-family:arial;
+}
+.ingreso{
+    padding: 10px 8px;
+    width: 100%;
+    border: 1px solid;
+    border-radius: 3px;
+    background: white;
+    color: #000;
+    font-size: 15px;
+}
+.ingreso3{
+    padding: 10px 8px;
+    width: 100%;
+    border: 1px solid;
+    border-radius: 3px;
+    background: white;
+    font-size: 15px;
+}
+.ingreso33{
+    padding: 10px 8px;
+    width: 25%;
+    border: 1px solid red;
+    border-radius: 3px red;
+    background: white;
+    font-size: 15px;
+}
+.ingreso4{
+    padding: 10px 8px;
+    width: 100%;
+    border: 1px solid red;
+    border-radius: 3px;
+    background: white;
+    font-size: 15px;
+	outline: none;
+}
+.ingreso6{
+    padding: 10px 8px;
+    width: 190%;
+    border: 1px solid red;
+    border-radius: 3px;
+    background: white;
+    font-size: 15px;
+	outline: none;
+}
+.ingreso7{
+    padding: 10px 8px;
+    width: 100%;
+    border: 1px solid red;
+    border-radius: 3px;
+    background: white;
+    font-size: 15px;
+	outline: none;
+}
+.ingresomd{
+	padding: 10px 8px;
+    width: 95%;
+    border: 1px solid #cecece;
+    border-radius: 3px;
+    background: white;
+    font-size: 15px;
+	outline: none;
+	user-select: none;
+	background-color: #cecece;
+}
+.enviar_submit{
+    width: 60%;
+    background-color: black;
+    color: white;
+    padding: 10px 1px;
+    margin:0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.enviar_submit:hover{
+    background-color: #23d4eb;
+}
+.enviar_button{
+    width: 200px;
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    margin:0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.enviar_button:hover {
+    background-color: #23d4eb;
+}
+.enviar_button1{
+    width: 100px;
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    margin:0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: 0 none;
+}
+.enviar_button1:hover{
+    background-color: white;
+    color: black;
+}
+.body1{
+    background-image:url(1.jpg);
+    width: 100%;
+    background-size:100% 100%;
+    margin: 0;
+    height: 695px;
+    user-select: none;
+}
+.body11{
+    background-image:url(1.jpg);
+    width: 100%;
+    background-size:100% 100%;
+    margin: 0;
+    height: 695px;
+    user-select: none;
+}
+.body4{
+    background-image:url(2.jpg);
+    width: 100%;
+    background-size:100% 100%;
+    margin: 0;
+    height: 695px;
+    user-select: none;
+}
+
+/*Fin del index*/
+
+/*Pagina de registro*/
+
+.container{
+    width: 20%;
+    height: auto;
+    text-align: start;
+}
+.body2{
+    background-image:url(1.jpg);
+    width: 100%;
+    background-size:100% 100%;
+    margin: 0;
+    height: auto;
+    user-select: none;
+    
+}
+.ingreso2{
+    padding: 8px 4px;
+    width: 100%;
+    border: 1px solid; 
+    border-radius: 3px;
+    background: white;
+    color: #000;
+    font-size: 13px;
+}
+.ingresosapn{
+	padding: 8px 4px;
+    width: 375px;
+    border: 1px solid red;
+    border-radius: 3px;
+    background: white;
+    font-size: 15px;
+	outline: none;
+}
+
+/* Pagina de Home*/
+
+.div1{
+    width: 80%;
+}
+.banner{
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    user-select: none;
+}
+
+/*Fin pagina de registro*/
+
+/*Cabezera*/
+
+.body3{
+    font-size: 1.2rem;
+    line-height: 1.6em;
+    margin: 0;
+    font-family: 'Open sans';
+}
+.header{
+    background: #000000;
+    color: white;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 10000;
+    padding-top:125px;
+    text-align: center;
+}
+.header a{
+    color: white;
+    text-decoration: none;
+}
+.navegacion{
+	width: 100%;
+	background: #000000;
+    margin-top: 0;
+    z-index: 10000;
+}
+.navegacion ul{
+	list-style: none;
+}
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+.menu > li > a{
+	display: block;
+	font-family: 'Open sans';
+	text-decoration: none;
+    color: white;
+    padding: 10px 25px;
+}
+.menu li a:hover{
+	color: #4ba2ed;
+	transition: all 0.3s;
+}
+.cur{
+    cursor: pointer;
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: #000000;
+	width: 90%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 0.2s;
+    z-index: 10000;
+    text-align: start;
+}
+.submenu li a{
+	display: block;
+	padding: 10px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+    text-align: start ;
+}
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+/*Fin submenu*/
+/*Fin cabezera*/
+
+/*Crear grupo*/
+
+.containers{
+    width: 75%;
+    margin: 10px auto;
+}
+.containers1{
+    width: 40%;
+    float: left;
+}
+.containers2{
+    width: 40%;
+    float: right;
+}
+
+/*fin grupo*/
+
+/*Consultar*/
+
+.table{
+    width: 95%;
+    text-align: center;
+    border-collapse: collapse;
+	margin: auto;
+    font-size: 16px;
+}
+th, td{
+	padding: 8px;
+}
+thead{
+	background-color:#000;
+	color: white;
+}
+tr:nth-child(even){
+	background-color: white;
+}
+tr:hover td{
+	background-color: #60b6f5;
+	color: #000;
+}
+
+
+/*fin consultar*/
+
+/*Home*/
+
+.containerb{
+    width: 90%;
+    height: auto;
+    margin: 5px auto;
+}
+.containerb1{
+    width: 45%;
+    float: left;
+}
+.containerb2{
+    width: 45%;
+    float: right;
+}
+
+
+.conten{
+    width: 100%;
+    height: auto;
+}
+.conten1{
+    width: 50%;
+    float: left;
+}
+.conten2{
+    width: 50%;
+    float: right;
+}
+
+.txt1{
+    text-align: justify;
+    font-size: 15px;  
+}
+ input[type="submit"], input[type="button"]:focus {
+    outline: 0 none;
+}
+
+/*Fin home*/
+
+/*Help*/
+
+.ingreso5{
+    padding: 4px 9px;
+	width: 55%;
+    border: 1px solid;
+    border-radius: 3px;
+    background: white;
+    font-size: 15px;
+}
+.ingresoselec{
+    padding: 4px 4px;
+	width: 39%;
+    border: 1px solid;
+    border-radius: 3px;
+    background: white;
+    font-size: 15px;
+}
+.enviar_button2{
+    width: 150px;
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    margin:0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.enviar_button2:hover {
+    background-color: #23d4eb;
+}
+.txt3{
+	width: 100%;
+	height: 70px;
+}
+
+/*fin help*/
+
+/* Tooltip */
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 400px;
+  background-color: black;
+  color: #fff;
+  border-radius: 5px;
+	padding: 5px;
+	margin-left: -10px;
+    bottom: 108%;
+    left: 35%;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+	
+}
+
+/*Crear*/
+
+.tooltip2 {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.tooltip2 .tooltiptext2 {
+  visibility: hidden;
+  width: 250px;
+  background-color: black;
+  color: #fff;
+  border-radius: 5px;
+	padding: 5px;
+	margin-left: -10px;
+    bottom: 100%;
+	left: 70%;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip2:hover .tooltiptext2 {
+  visibility: visible;
+	
+}
+
+.tooltip3 {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.tooltip3 .tooltiptext3 {
+  visibility: hidden;
+  width: 250px;
+  background-color: black;
+  color: #fff;
+  border-radius: 5px;
+	padding: 5px;
+	margin-left: -10px;
+    bottom: 100%;
+	left: 85%;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip3:hover .tooltiptext3 {
+  visibility: visible;
+	
+}
+
+
+.tooltip4 {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.tooltip4 .tooltiptext4 {
+  visibility: hidden;
+  width: 280px;
+  background-color: black;
+  color: #fff;
+  border-radius: 5px;
+	padding: 5px;
+	margin-left: -10px;
+    bottom: 100%;
+	left: 90%;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip4:hover .tooltiptext4 {
+  visibility: visible;
+}
+
+.tooltip5 {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip5 .tooltiptext5 {
+  visibility: hidden;
+  width: 280px;
+  background-color: black;
+  color: #fff;
+  border-radius: 5px;
+	padding: 5px;
+	margin-left: -10px;
+    bottom: 100%;
+	left: 90%;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip5:hover .tooltiptext5 {
+  visibility: visible;
+}
+
+/*Fin del tooltip*/
+
+/*Crear elementos*/
+
+.containern1{
+	width: 500px;
+}
+.ingresonn{
+	padding: 8px 4px;
+    width: 60%;
+    border: 1px solid; 
+    border-radius: 3px;
+    background: white;
+    color: #000;
+    font-size: 13px;
+}
+.txt4{
+	width: 60%;
+	height: 80px;
+}
+.enviar_button2{
+    width: 30%;
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    margin:0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.enviar_button2:hover {
+    background-color: #23d4eb;
+}
+.containern{
+    width: 95%;
+    height: auto;
+    margin: 5px auto;
+}
+.table1{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+	margin: auto;
+    font-size: 16px;
+}
+/* fin elementos*/
+
+.formato{
+    width: 50%;
+    text-align: left;
+}
